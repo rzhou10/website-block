@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Website Block",
+  "version": "1.0",
+
+  "description": "Blocks me from viewing various web page",
+  "homepage_url": "https://github.com/rzhou10/website-block/",
+
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_title": "Website Blocked",
+    "default_popup": "popup/website_block.html"
+  }
+}
